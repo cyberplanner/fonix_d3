@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Fonix tech test</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="http://d3js.org/d3.v3.js"></script>
+  </head>
+  <body>
+    <input type="file" id="uploader">
+    <p id="stats">
+    </p>
+    <table id="table">
+
+    </table>
+
+    <svg width="960" height="500"></svg>
+
+    <script src="src/main.js"></script>
+    <script>
+    upload_button("uploader", load_dataset);
+    </script>
+  </body>
+</html>
