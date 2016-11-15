@@ -2,7 +2,7 @@ body {
   font-family: Ubuntu, Helvetica, sans-serif; font-size: 12px;
 }
 table {
-  font-size: 10px; border-collapse: collapse;
+  font-size: 22px; border-collapse: collapse;
 }
 table th {
   border: 1px solid #aaa;
@@ -10,6 +10,7 @@ table th {
 table td {
   border: 1px solid #d0d0d0;
 }
+
 
 .axis--x path {
   display: none;
