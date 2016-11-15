@@ -12,14 +12,6 @@ function create_table(data) {
   // table stats
   var keys = d3.keys(data[0]);
 
-  // var stats = d3.select("#stats")
-  //   .html("")
-  //
-  // stats.append("div")
-  //   .text("Columns: " + keys.length)
-  //
-  // stats.append("div")
-  //   .text("Rows: " + data.length)
 
   d3.select("#table")
     .html("")
@@ -41,9 +33,16 @@ function create_table(data) {
         .text(function(d) { return d; });
 }
 
+//create the graph
+function create_graph(data) {
+  d3.select("#graph")
+    .append("svc")
+}
+
+
 // handle upload button
-function upload_button(el, callback) {
-  var uploader = document.getElementById(el);
+function upload_button(elementID, callback) {
+  var uploader = document.getElementById(elementID);
   var reader = new FileReader();
 
   reader.onload = function(e) {
