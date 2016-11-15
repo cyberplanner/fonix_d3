@@ -2,7 +2,7 @@
 
 ### About :
 ```
-A simple CSV parser made with JavaScript and the Data-Driven library "d3.js".
+A simple CSV parser made with JavaScript and the Data-Driven Documents library "d3.js".
 ```
 
 ### Instruction :

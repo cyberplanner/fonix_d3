@@ -34,10 +34,11 @@ function create_table(data) {
 }
 
 //create the graph
-function create_graph(data) {
-  d3.select("#graph")
-    .append("svc")
-}
+// function create_graph(data) {
+//   d3.select("#graph")
+//     .append("svc")
+//     .
+// }
 
 
 // handle upload button
